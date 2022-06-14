@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+form {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-color: black;
+}
+#invalidemail {
+    display:none;
+}
+#invalidzip {
+    display: none;
+}
+
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: green;
+}
+#sub {
+    border-color: black;
+}
